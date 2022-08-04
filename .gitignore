@@ -9,6 +9,8 @@
 *.log
 *.log.*
 
+/files/
+
 /.vscode/
 
 node_modules/

@@ -1,4 +1,5 @@
 ---
+layout: article
 title: Command Line Fun
 tags: oscp
 ---
@@ -36,9 +37,6 @@ $ echo $path
 $ echo $HOME
 /home/kali
 ```
-
-
-
 
 ## grep
 
@@ -150,8 +148,6 @@ c
 d
 ```
 
-
-
 ## wc
 
 ## nano
@@ -178,8 +174,6 @@ $ seq 9
 8
 9
 ```
-
-
 
 ## comm
 
@@ -293,7 +287,7 @@ $ more /var/log/dmesg
 ## less
 
 ```bash
-$ less /var/log/dmesg
+less /var/log/dmesg
 ```
 
 ## cat
@@ -490,8 +484,6 @@ c
 c
 ```
 
-
-
 ## route
 
 ## mount
@@ -505,8 +497,6 @@ devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmod
 tmpfs on /run type tmpfs (rw,nosuid,nodev,noexec,relatime,size=99836k,mode=755,inode64)
 /dev/vda1 on / type ext4 (rw,relatime,errors=remount-ro)
 ```
-
-
 
 ## dmesg
 
@@ -524,13 +514,15 @@ $ sudo dmesg
 ## find
 
 ```bash
-$ find . -name a.txt 
+find . -name a.txt 
 ```
 
 不区分大小写
+
 ```bash
-$ find . -iname a.txt 
+find . -iname a.txt 
 ```
+
 ## whereis
 
 ```bash
@@ -541,16 +533,12 @@ $ whereis -b python
 python: /usr/bin/python /usr/share/python
 ```
 
-
-
 ## which
 
 ```bash
 $ which ping
 /usr/bin/ping
 ```
-
-
 
 ## cd
 
@@ -581,10 +569,8 @@ $ pwd
 解压.gz 文件
 
 ```bash
-$ gzip rockyou.txt.gz -d
+gzip rockyou.txt.gz -d
 ```
-
-
 
 ------
 
