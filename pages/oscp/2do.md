@@ -3,10 +3,9 @@ title: 卷起来吧~
 tags: oscp
 ---
 
+[Pan](https://pan.iihack.com/)下载为阿里云，速度快慢取决于您与阿里云之间的带宽~ 
 
-Pan下载为阿里云，速度快慢取决于您与阿里云之间的带宽~
-
-| 靶机文件名          | VulnHub                                            | Pan                                |
+| 靶机文件名          | VulnHub                                            | [Pan](https://pan.iihack.com/)     |
 | ------------------- | -------------------------------------------------- | ---------------------------------- |
 | solstice.ova        | <https://www.vulnhub.com/entry/sunset-solstice,499/> | <https://pan.iihack.com/Vulnhub/499> |
 | Natraj.zip          | <https://www.vulnhub.com/entry/ha-natraj,489/>       | <https://pan.iihack.com/Vulnhub/489> |
@@ -35,10 +34,4 @@ Pan下载为阿里云，速度快慢取决于您与阿里云之间的带宽~
 | pyexpvm.zip | <https://www.vulnhub.com/entry/pyexp-1,534/> | <https://pan.iihack.com/Vulnhub/534> |
 | Monitoring.ova | <https://www.vulnhub.com/entry/monitoring-1,555/> | <https://pan.iihack.com/Vulnhub/555> |
 
-----------------
 
-#### 过气靶机
-
-| 靶机文件名          | VulnHub                                            | Pan                                |
-| ------------------- | -------------------------------------------------- | ---------------------------------- |
-| ica1.zip            | <https://www.vulnhub.com/entry/ica-1,748/>           | <https://pan.iihack.com/Vulnhub/748> |
