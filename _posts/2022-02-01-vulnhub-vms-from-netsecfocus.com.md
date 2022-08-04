@@ -1,7 +1,6 @@
 ---
-layout: mypost
 title: 来自netsecfocus.com的Vulnhub靶机列表备份
-categories: [pentest] 
+tags: pentest
 ---
 
 

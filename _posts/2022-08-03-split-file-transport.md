@@ -1,7 +1,6 @@
 ---
-layout: mypost
 title: 分割文件传输
-categories: [pentest]
+tags: pentest
 ---
 
 又遇到大文件传输失败了，这次直接是90KB限制。

@@ -1,7 +1,6 @@
 ---
-layout: mypost
 title: HACKTHEBOX Challeges Web
-categories: [ctf]
+tags: ctf
 ---
 
 ## Templated

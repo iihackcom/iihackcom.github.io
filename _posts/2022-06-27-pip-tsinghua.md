@@ -1,7 +1,6 @@
 ---
-layout: mypost
 title: PIP 使用清华源
-categories: [optimization]
+tags: optimization
 
 ---
 

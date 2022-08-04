@@ -1,7 +1,6 @@
 ---
-layout: pentest
 title: CyberChef
-categories: [tools,pentest]
+tags: tools
 ---
 
 <https://github.com/gchq/CyberChef>
