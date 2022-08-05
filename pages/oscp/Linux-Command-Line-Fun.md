@@ -1,10 +1,12 @@
 ---
 layout: article
-title: Command Line Fun
+title: Linux Command Line Fun
 tags: oscp
 ---
 
-# 命令
+# Linux命令练习
+
+
 
 ## export
 

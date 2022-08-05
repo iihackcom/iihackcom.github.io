@@ -13,7 +13,9 @@ tags: oscp
 
 ### 备考
 
-[Command Line Fun](https://iihack.com/pages/oscp/Command-Line-Fun.html)
+[Linux Command Line Fun](https://iihack.com/pages/oscp/Linux-Command-Line-Fun.html)
+
+[Windows Command Line Fun](https://iihack.com/pages/oscp/Windows-Command-Line-Fun.html)
 
 Practical Tools
 
