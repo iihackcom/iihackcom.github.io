@@ -1,4 +1,5 @@
 ---
+layer: article
 title: Privilege Escalation
 tags: oscp
 ---

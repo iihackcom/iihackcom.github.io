@@ -1,4 +1,5 @@
 ---
+layer: article
 title: OSCP 备考
 tags: oscp
 ---
@@ -59,7 +60,7 @@ Assembling the Pieces: Penetration Test Breakdown
 
 ### 推荐
 
-- [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8) 
+- [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8)
 
 其中Vulnhub部分（内容见下表），除去失效的[Alpha 1: https://www.vulnhub.com/entry/alfa-1,655/](https://www.vulnhub.com/entry/alfa-1,655/) 无法打开和[metasploitable3](https://github.com/rapid7/metasploitable3)大家可以自建，其他的已经按尾部编号上传至[Pan](https://pan.iihack.com/Vulnhub) 下载速度快慢就看阿里云了
 

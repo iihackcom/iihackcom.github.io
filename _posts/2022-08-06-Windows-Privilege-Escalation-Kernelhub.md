@@ -1,10 +1,10 @@
 ---
 layer: article
-title: Windows Kernel Privilege Escalation 合辑推荐
+title: Kernelhub - Windows Kernel Privilege Escalation 合辑推荐
 tags: tools
 ---
 
-项目地址：https://github.com/Ascotbe/Kernelhub
+项目地址：[https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub)
 
 > 本项目仅面向**合法授权**的企业安全建设行为，在使用本项目进行检测时，您应确保该行为符合当地的法律法规，并且已经取得了足够的授权。
 >
