@@ -1,0 +1,69 @@
+---
+layer: article
+title: 渗透测试过程中巧用远程桌面软件
+tags: tools pentest
+---
+
+实战中免杀CS上线后，看到碍眼的杀软多少是有点不忍，怎么办呢？
+
+一般会通过远程桌面软件控制桌面，添加自定义文件夹为杀软白名单，退出杀软，心情舒畅~
+
+这里远程桌面软件推荐俩：
+
+# 连同互联网
+
+## Anydesk
+
+详细直接看https://www.freebuf.com/articles/network/282812.html
+
+本地首次运行后记下ID并设置密码，设置隐私配置，杀进程，找配置文件，通过cs在靶机上新建目录，上传四个文件
+
+```bash
+dir C:\Users\administrator\AppData\Roaming\AnyDesk
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          2022/8/6     12:52          42128 ad.trace
+-a----          2022/8/6     12:51           2762 service.conf
+-a----          2022/8/6     12:52           1019 system.conf
+-a----          2022/8/6     12:52           2425 user.conf
+```
+
+在靶机运行anydesk.exe 
+
+使用之前的ID和自定义密码连接靶机。
+
+## Rustdesk
+
+过程同Anydesk
+
+本地首次运行后记下ID并设置密码，杀进程，找配置文件，通过cs新建目录，上传两个文件
+
+```bash
+dir C:\Users\oncen\AppData\Roaming\RustDesk\config
+Mode                 LastWriteTime         Length Name
+
+----                 -------------         ------ ----
+
+-a----          2022/8/6     12:43            590 RustDesk.toml
+-a----          2022/8/6     12:38            200 RustDesk2.toml
+```
+
+![](https://static.iihack.top/2022/8/6/1.png)
+
+在靶机上运行rustdesk.exe
+
+使用ID和自定义密码连接。
+
+# 纯内网
+
+## Rustdesk
+
+因为rustdesk支持IP直接访问
+
+可修改`RustDesk2.toml`在最后一行加上`direct-server = 'Y'`
+
+默认IP直连端口21118，也可以自定义端口，同样是修改`RustDesk2.toml` 添加`direct-access-port = '8443'`
+
+![](https://static.iihack.top/2022/8/6/2.png)
+
+远程连接时输入IP:PORT和自定义密码连接。![](https://static.iihack.top/2022/8/6/3.png)

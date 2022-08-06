@@ -1,7 +1,7 @@
 ---
 layer: article
-title: 后起还未秀之GOogle Tsunami
-tags: tools pentest
+title: 后起还未秀之Google Tsunami
+tags: tools scanner
 ---
 ## 更新
 
