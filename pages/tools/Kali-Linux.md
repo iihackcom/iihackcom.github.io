@@ -1,5 +1,4 @@
 ---
-layer: article
 title: Kali Linux
 tags: pentest oscp
 ---
@@ -22,8 +21,6 @@ The highlights for Kali’s 2022.3’s release:
 - **[Kali NetHunter Updates](https://www.kali.org/blog/kali-linux-2022-3-release/#kali-nethunter-updates)** - New releases in our NetHunter store
 - **[Virtual Machines Updates](https://www.kali.org/blog/kali-linux-2022-3-release/#kali-for-virtual-machines)** - New VirtualBox image format, weekly images, and build-scripts to build your own
 - **[New Tools In Kali](https://www.kali.org/blog/kali-linux-2022-3-release/#new-tools-in-kali)** - Would not be a release without some new tools!
-
-
 
 ![](https://www.kali.org/blog/kali-linux-2022-3-release/images/banner-2022.3-release.jpg)
 
