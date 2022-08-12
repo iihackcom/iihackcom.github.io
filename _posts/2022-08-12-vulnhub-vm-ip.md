@@ -1,7 +1,6 @@
 ---
-layout: pentest
 title: Vulnhub靶机无法获得IP
-categories: pentest
+categories: pentest vulnhub
 ---
 
 一般将Kali Linux和Vulnhub靶机通过设置`nat`网络连接。
