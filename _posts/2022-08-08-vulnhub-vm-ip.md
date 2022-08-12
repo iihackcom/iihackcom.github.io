@@ -3,7 +3,7 @@ title: Vulnhub靶机无法获得IP
 categories: pentest vulnhub
 ---
 
-一般将Kali Linux和Vulnhub靶机通过设置`nat`网络连接。
+一般将Kali Linux和Vulnhub靶机通过设置`nat网络`连接。
 
 先在VirtualBox *全局设定-网络* 点击  *添加新NAT网络*，将Kali Linux和靶机网络设置为`NAT网络`
 
