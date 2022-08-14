@@ -1,6 +1,6 @@
 ---
 title: Kali Linux
-tags: pentest oscp
+tags: pentest tools oscp
 ---
 
 
