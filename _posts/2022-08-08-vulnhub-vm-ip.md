@@ -64,11 +64,11 @@ Kali Linux上执行命令`sudo arp-scan -l`进行C段arp扫描
 
    - Ubuntu系统新版本
 
-     需修改的文件`/etc/netplan/*.yaml` 
+   需修改的文件`/etc/netplan/*.yaml`
 
    ![](https://static.iihack.com/vulnhub/ip/9.png)
 
-     修改倒数第二行网卡名称为自己的网卡名称
+   修改倒数第二行网卡名称为自己的网卡名称
 
    ![](https://static.iihack.com/vulnhub/ip/10.png)
 
