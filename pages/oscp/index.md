@@ -6,7 +6,9 @@ tags: oscp
 
 以下内容为个人备考OSCP 2022整理
 
-#### 参考材料
+#### 学习资料
+
+[Kali Linux](https://www.iihack.com/pages/tools/Kali-Linux.html)
 
 《PWK OSCP V2.0.1》
 
