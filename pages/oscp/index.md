@@ -22,6 +22,8 @@ tags: oscp
 
 [pentest.ws](https://pentest.ws/)
 
+[HackTricks](https://book.hacktricks.xyz/)
+
 ## 备考
 
 [Linux Command Line Fun](https://iihack.com/pages/oscp/Linux-Command-Line-Fun.html)

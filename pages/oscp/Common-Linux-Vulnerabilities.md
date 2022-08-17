@@ -1,6 +1,6 @@
 ---
 layer: article
-title: Common-Linux-Vulnerabilities
+title: Common Linux Vulnerabilities
 tags: oscp
 ---
 
