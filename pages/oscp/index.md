@@ -14,6 +14,12 @@ tags: oscp
 
 《Kali-Linux-Revealed-2021-edition》
 
+[四周靶机](https://www.iihack.com/pages/oscp/2do.html)
+
+[部分 PROVING GROUNDS](https://www.iihack.com/pages/oscp/PROVING-GROUNDS.html)
+
+[官方PROVING GROUNDS](https://portal.offensive-security.com/labs/)
+
 ### 备考
 
 [Linux Command Line Fun](https://iihack.com/pages/oscp/Linux-Command-Line-Fun.html)
