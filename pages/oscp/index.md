@@ -6,7 +6,7 @@ tags: oscp
 
 以下内容为个人备考OSCP 2022整理
 
-#### 学习资料
+## 学习资料
 
 [Kali Linux](https://www.iihack.com/pages/tools/Kali-Linux.html)
 
@@ -20,7 +20,9 @@ tags: oscp
 
 [官方PROVING GROUNDS](https://portal.offensive-security.com/labs/)
 
-### 备考
+[pentest.ws](https://pentest.ws/)
+
+## 备考
 
 [Linux Command Line Fun](https://iihack.com/pages/oscp/Linux-Command-Line-Fun.html)
 
@@ -66,15 +68,16 @@ Assembling the Pieces: Penetration Test Breakdown
 
 [Common Linux Vulnerabilities](https://iihack.com/pages/oscp/Common-Linux-Vulnerabilities.html)
 
-### 推荐
+## 推荐
 
 - [NetSecFocus Trophy Room](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8)
 
 其中Vulnhub部分（内容见下表），除去失效的[Alpha 1: https://www.vulnhub.com/entry/alfa-1,655/](https://www.vulnhub.com/entry/alfa-1,655/) 无法打开和[metasploitable3](https://github.com/rapid7/metasploitable3)大家可以自建，其他的已经按尾部编号上传至[Pan](https://pan.iihack.com/Vulnhub) 下载速度快慢就看阿里云了
 
+**List of PWK/OSCP boxes from the previous versions  of the course**
+
 |名称 |  [vulnhub地址](https://www.vulnhub.com/)                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **List of PWK/OSCP boxes from the previous versions  of the course** |                                                              |
 | Kioptrix:   Level 1 (#1):                                    | <https://www.vulnhub.com/entry/kioptrix-level-1-1,22/>       |
 | Kioptrix:   Level 1.1 (#2):                                  | <https://www.vulnhub.com/entry/kioptrix-level-11-2,23/>      |
 | Kioptrix:   Level 1.2 (#3):                                  | <https://www.vulnhub.com/entry/kioptrix-level-12-3,24/>      |
@@ -102,7 +105,11 @@ Assembling the Pieces: Penetration Test Breakdown
 | Hackme   1:                                                  | <https://www.vulnhub.com/entry/hackme-1,330/>                |
 | Escalate_Linux: 1:                                           | <https://www.vulnhub.com/entry/escalate_linux-1,323/>        |
 | DC 6:                                                        | <https://www.vulnhub.com/entry/dc-6,315/>                    |
-| **Current   Systems that are Simliar to the current PWK/OSCP course** |                                                              |
+
+**Current   Systems that are Simliar to the current PWK/OSCP course**
+
+|名称 |  [vulnhub地址](https://www.vulnhub.com/)                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | DC 9:                                                        | <https://www.vulnhub.com/entry/dc-9,412/>                    |
 | Digitalworld.local (Bravery):                                | <https://www.vulnhub.com/entry/digitalworldlocal-bravery,281/> |
 | Digitalworld.local (Development):                            | <https://www.vulnhub.com/entry/digitalworldlocal-development,280/> |
@@ -136,7 +143,11 @@ Assembling the Pieces: Penetration Test Breakdown
 | DevGuru 1:                                                   | <https://www.vulnhub.com/entry/devguru-1,620/>               |
 | Alpha 1:                                                     | <https://www.vulnhub.com/entry/alfa-1,655/>                  |
 | Hack Me Please:                                              | <https://www.vulnhub.com/entry/hack-me-please-1,731/>        |
-| **Other   Vm's to check out!**                               |                                                              |
+
+**Other   Vm's to check out!**
+
+|名称 |  [vulnhub地址](https://www.vulnhub.com/)                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | IMF:                                                         | <https://www.vulnhub.com/entry/imf-1,162/>                   |
 | Tommy Boy:                                                   | <https://www.vulnhub.com/entry/tommy-boy-1,157/>             |
 | Billy Madison:                                               | <https://www.vulnhub.com/entry/billy-madison-11,161/>        |
