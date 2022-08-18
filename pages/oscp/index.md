@@ -24,6 +24,8 @@ tags: oscp
 
 [HackTricks](https://book.hacktricks.xyz/)
 
+[iNotes](https://ihsansencan.github.io/)
+
 ## 备考
 
 [Linux Command Line Fun](https://iihack.com/pages/oscp/Linux-Command-Line-Fun.html)

@@ -1,6 +1,6 @@
 ---
 layout: pentest
 title: tcpdump
-categories: [tools,pentest]
+tags: tools pentest
 ---
 

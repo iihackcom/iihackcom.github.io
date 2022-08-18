@@ -1,6 +1,7 @@
 ---
 layout: pentest
 title: gtfobins
-categories: [tools,pentest]
+tags: tools pentest
 ---
 
+<https://gtfobins.github.io/>

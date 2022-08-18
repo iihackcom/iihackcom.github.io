@@ -1,6 +1,6 @@
 ---
 layout: pentest
 title: wireshark
-categories: [tools,pentest]
+tags: tools pentest
 ---
 

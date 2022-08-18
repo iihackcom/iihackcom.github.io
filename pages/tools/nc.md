@@ -1,6 +1,6 @@
 ---
 layout: pentest
 title: nc
-categories: [tools,pentest]
+tags: tools pentest
 ---
 

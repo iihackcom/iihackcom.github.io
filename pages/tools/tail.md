@@ -1,5 +1,5 @@
 ---
 title: tail
-categories: [tools,pentest]
+tags: tools pentest
 ---
 

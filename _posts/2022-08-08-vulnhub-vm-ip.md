@@ -1,7 +1,7 @@
 ---
 layer: article
 title: Vulnhub靶机无法获得IP
-tags: pentest vulnhub writeup
+tags: pentest vulnhub Walkthrough
 ---
 
 ## 一般情况

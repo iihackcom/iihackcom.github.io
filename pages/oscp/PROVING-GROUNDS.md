@@ -20,7 +20,7 @@ From: <https://portal.offensive-security.com/labs/play>
 | Dawn2              | 8      | Intermediate | <https://www.vulnhub.com/entry/sunset-dawn2,424/>      | <https://pan.iihack.com/Vulnhub/424> |
 | Dawn3              | 8      | Intermediate | <https://www.vulnhub.com/entry/sunset-dawn3,436/>      | <https://pan.iihack.com/Vulnhub/436> |
 | DC-1               | 5      | Easy         | <>                                                     | <>                                   |
-| DC-2               | 5      | Easy         | <>                                                     | <>                                   |
+| DC-2               | 5      | Easy         | <https://www.vulnhub.com/entry/dc-2,311/>              | <>                                   |
 | DC-4               | 8      | Intermediate | <>                                                     | <>                                   |
 | DC-9               | 8      | Intermediate | <>                                                     | <>                                   |
 | Deception          | 8      | Intermediate | <https://www.vulnhub.com/entry/haclabs-deception,427/> | <https://pan.iihack.com/Vulnhub/427> |

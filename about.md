@@ -30,4 +30,5 @@ key: page-about
 
 ----
 
-联系方式: `i@domain.com`
+联系方式: `i@domain`
+微信：`domain[:-4]`
