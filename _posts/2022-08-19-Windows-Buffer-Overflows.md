@@ -58,6 +58,8 @@ https://github.com/corelan/mona
 
 安装后，双击桌面图标，Tools → Advanced Options → Server，勾选Enable Web Server on Port ，开启80端口，点击Save，并关闭windows系统防火墙。
 
+![1](https://static.iihack.com/2022/8/19/1.PNG)
+
 在Attack主机上访问http://192.168.10.117/即可
 
 问题出在http://192.168.10.117/login登陆时`username`字段
