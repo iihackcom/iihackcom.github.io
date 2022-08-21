@@ -64,7 +64,7 @@ Kali Linux上执行命令`sudo arp-scan -l`进行C段arp扫描
 
    - Ubuntu系统新版本
 
-   需修改的文件`/etc/netplan/*.yaml`
+   需修改的文件`/etc/netplan/*.yaml` 
 
    ![](https://static.iihack.com/vulnhub/ip/9.png)
 
@@ -72,8 +72,10 @@ Kali Linux上执行命令`sudo arp-scan -l`进行C段arp扫描
 
    ![](https://static.iihack.com/vulnhub/ip/10.png)
 
-   - Debian系统 和Ubuntu系统旧版本
+   - Debian系统 和Ubuntu系统旧版本（无`/etc/netplan/*.yaml` ）
 
-     需修改文件`/etc/network/interfaces` ，修改两处网卡名称为自己的网卡名称
+   需修改文件`/etc/network/interfaces` ，修改两处网卡名称为自己的网卡名称
+
+   ![](https://static.iihack.com/vulnhub/ip/11.png)
 
 5. 重启完成
