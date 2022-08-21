@@ -1,4 +1,5 @@
 ---
+layer: article
 title: linpeas.sh
 tags: pentest tools
 ---

@@ -1,6 +1,6 @@
 ---
-layout: pentest
+layout: article
 title: comm
-tags: tools pentest
+tags: tools 
 ---
 

@@ -1,7 +1,9 @@
 ---
-layout: pentest
+layout: article
 title: gtfobins
-tags: tools pentest
+tags: tools 
 ---
+
+
 
 <https://gtfobins.github.io/>

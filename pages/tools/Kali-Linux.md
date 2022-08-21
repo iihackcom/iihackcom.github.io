@@ -1,6 +1,7 @@
 ---
+layer: article
 title: Kali Linux
-tags: pentest tools oscp
+tags: tools 
 ---
 
 
