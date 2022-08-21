@@ -283,17 +283,14 @@ except:
 !mona bytearray -cpb \x00\x0a\x0d\x25
 !mona bytearray -cpb \x00\x0a\x0d\x25\x26
 !mona bytearray -cpb \x00\x0a\x0d\x25\x26\x2b\x3d
-
 ```
 
 - 对比，复制出来增加到上面，并在py脚本中剔除
 
   ~~~bash
-  ```
   !mona compare -a esp -f  "D:\Program Files\Immunity Inc\Immunity Debugger\bytearray.bin"
-  ```
   ~~~
-
+  
   ![5](https://static.iihack.com/2022/8/19/5.PNG)
 
 ### 6.找EIP并测试

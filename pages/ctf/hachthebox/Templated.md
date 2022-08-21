@@ -1,5 +1,5 @@
 ---
-title: Templated @ HACKTHEBOX Challeges Web
+title: Templated - HACKTHEBOX Challeges Web
 tags: ctf
 ---
 
