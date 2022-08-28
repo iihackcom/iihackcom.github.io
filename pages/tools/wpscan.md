@@ -7,6 +7,8 @@ tags: tools
 
 
 ```bash
+$ wpscan --url http://raven.local/wordpress/ -e
+
 $ wpscan --url http://www.midwest.htb/ -U admin -P ~/Documents/pass2 -t 50
 ```
 

