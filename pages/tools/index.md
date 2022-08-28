@@ -9,5 +9,16 @@ tags: tools
 
 
 
+[cewl](https://www.iihack.com/pages/tools/cewl.html)
+
+[dirb](https://www.iihack.com/pages/tools/dirb.html)
 
 [GTFOBins](https://www.iihack.com/pages/tools/GTFOBins.html)
+
+[hydras](https://www.iihack.com/pages/tools/hydra.html)
+
+[linpeas.sh](https://www.iihack.com/pages/tools/linpeas.html)
+
+[nikto](https://www.iihack.com/pages/tools/nikto.html)
+
+[wpscan](https://www.iihack.com/pages/tools/wpscan.html)
