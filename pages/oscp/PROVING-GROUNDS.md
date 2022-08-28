@@ -12,6 +12,7 @@ From: <https://portal.offensive-security.com/labs/play>
 | ------------------ | ------ | ------------ | ------------------------------------------------------------ | ------------------------------------ |
 | Assertion101       | 8      | Intermediate | <https://www.vulnhub.com/entry/assertion-101,495/>           | <https://pan.iihack.com/Vulnhub/495> |
 | BBSCute            | 5      | Easy         | <https://www.vulnhub.com/entry/bbs-cute-102,567/>            | <https://pan.iihack.com/Vulnhub/567> |
+| Blogger            | 5      | Easy         | https://www.vulnhub.com/entry/blogger-1,675/                 | <https://pan.iihack.com/Vulnhub/675> |
 | Born2Root          | 8      | Intermediate | <https://www.vulnhub.com/entry/born2root-1,197/>             | <https://pan.iihack.com/Vulnhub/197> |
 | Bottleneck         | 8      | Intermediate | <https://www.vulnhub.com/entry/bottleneck-1,374/>            | <https://pan.iihack.com/Vulnhub/374> |
 | BTRSys2.1          | 8      | Intermediate | <https://www.vulnhub.com/entry/btrsys-v21,196/>              | <https://pan.iihack.com/Vulnhub/196> |
@@ -25,6 +26,7 @@ From: <https://portal.offensive-security.com/labs/play>
 | DC-9               | 8      | Intermediate | <>                                                           | <>                                   |
 | Deception          | 8      | Intermediate | <https://www.vulnhub.com/entry/haclabs-deception,427/>       | <https://pan.iihack.com/Vulnhub/427> |
 | Djinn3             | 10     | Hard         | <https://www.vulnhub.com/entry/djinn-3,492/>                 | <https://pan.iihack.com/Vulnhub/492> |
+| DriftingBlues6     | 5      | easy         | https://www.vulnhub.com/entry/driftingblues-6,672/           | <https://pan.iihack.com/Vulnhub/672> |
 | Election1          | 8      | Intermediate | <>                                                           | <>                                   |
 | EvilBox-One        | 5      | Easy         | <>                                                           | <>                                   |
 | Funbox             | 8      | Intermediate | <https://www.vulnhub.com/entry/funbox-1,518/>                | <https://pan.iihack.com/Vulnhub/518> |

@@ -13,7 +13,7 @@ tags: tools
 
 [dirb](https://www.iihack.com/pages/tools/dirb.html)
 
-[GTFOBins](https://www.iihack.com/pages/tools/GTFOBins.html)
+[GTFOBins](https://www.iihack.com/pages/tools/gtfobins.html)
 
 [hydras](https://www.iihack.com/pages/tools/hydra.html)
 

@@ -8,7 +8,7 @@ tags: oscp
 
 项目地址：<https://github.com/GTFOBins/GTFOBins.github.io> 和<https://gtfobins.github.io/>
 
-## BeRoot
+## [BeRoot](https://github.com/AlessandroZ/BeRoot)
 
 ## pspy
 
