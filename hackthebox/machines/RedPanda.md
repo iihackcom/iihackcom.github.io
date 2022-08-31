@@ -1,3 +1,20 @@
+---
+layer: article
+title: hackthebox RedPanda
+tags: pentest hackthebox Walkthrough 
+
+---
+
+靶机链接：<https://app.hackthebox.com/machines/RedPanda>
+
+## 环境配置
+
+| 名称       | IP           |
+| ---------- | ------------ |
+| RedPanda   | 10.10.11.170 |
+| Kali Linux | 10.10.14.8   |
+
+
 只开放了8080端口和22端口
 
 ### 端口8080
