@@ -26,7 +26,7 @@ From: <https://portal.offensive-security.com/labs/play>
 | DC-9               | 8      | Intermediate | <https://www.vulnhub.com/entry/dc-9,412/>                    | <https://pan.iihack.com/Vulnhub/412> |
 | Deception          | 8      | Intermediate | <https://www.vulnhub.com/entry/haclabs-deception,427/>       | <https://pan.iihack.com/Vulnhub/427> |
 | Djinn3             | 10     | Hard         | <https://www.vulnhub.com/entry/djinn-3,492/>                 | <https://pan.iihack.com/Vulnhub/492> |
-| DriftingBlues6     | 5      | easy         | https://www.vulnhub.com/entry/driftingblues-6,672/           | <https://pan.iihack.com/Vulnhub/672> |
+| DriftingBlues6     | 5      | easy         | <https://www.vulnhub.com/entry/driftingblues-6,672/>         | <https://pan.iihack.com/Vulnhub/672> |
 | Election1          | 8      | Intermediate | <https://www.vulnhub.com/entry/election-1,503/>              | <https://pan.iihack.com/Vulnhub/503> |
 | EvilBox-One        | 5      | Easy         | <https://www.vulnhub.com/entry/evilbox-one,736/>             | <https://pan.iihack.com/Vulnhub/736> |
 | Funbox             | 8      | Intermediate | <https://www.vulnhub.com/entry/funbox-1,518/>                | <https://pan.iihack.com/Vulnhub/518> |
@@ -38,6 +38,7 @@ From: <https://portal.offensive-security.com/labs/play>
 | GlasgowSmile       | 10     | Hard         | <https://www.vulnhub.com/entry/glasgow-smile-11,491/>        | <https://pan.iihack.com/Vulnhub/491> |
 | Ha-natraj          | 5      | Easy         | <https://www.vulnhub.com/entry/ha-natraj,489/>               | <https://pan.iihack.com/Vulnhub/489> |
 | HAWordy            | 8      | Intermediate | <https://www.vulnhub.com/entry/ha-wordy,363/>                | <https://pan.iihack.com/Vulnhub/363> |
+| ICMP               | 8      | Intermediate | <https://www.vulnhub.com/entry/icmp-1,633/>                  | <https://pan.iihack.com/Vulnhub/633> |
 | Inclusiveness      | 5      | Easy         | <https://www.vulnhub.com/entry/inclusiveness-1,422/>         | <https://pan.iihack.com/Vulnhub/422> |
 | InfosecPrep        | 5      | Easy         | <https://www.vulnhub.com/entry/infosec-prep-oscp,508/>       | <https://pan.iihack.com/Vulnhub/508> |
 | InsanityHosting    | 10     | Hard         | <https://www.vulnhub.com/entry/insanity-1,536/>              | <https://pan.iihack.com/Vulnhub/536> |
@@ -47,14 +48,14 @@ From: <https://portal.offensive-security.com/labs/play>
 | Monitoring         | 5      | Easy         | <https://www.vulnhub.com/entry/monitoring-1,555/>            | <https://pan.iihack.com/Vulnhub/555> |
 | My-CMSMS           | 8      | Intermediate | <https://www.vulnhub.com/entry/my-cmsms-1,498/>              | <https://pan.iihack.com/Vulnhub/498> |
 | NoName             | 8      | Intermediate | <https://www.vulnhub.com/entry/haclabs-no_name,429/>         | <https://pan.iihack.com/Vulnhub/429> |
-| OnSystemShellDredd | 5      | Easy         | 已下架<https://www.vulnhub.com/entry/onsystem-shelldredd-1-hannah,545/> | <>                                   |
+| OnSystemShellDredd | 5      | Easy         | 已下架Vulnhub.com<https://www.vulnhub.com/entry/onsystem-shelldredd-1-hannah,545/> | \                                    |
 | Photographer       | 5      | Easy         | <https://www.vulnhub.com/entry/photographer-1,519/>          | <https://pan.iihack.com/Vulnhub/519> |
 | Potato             | 5      | Easy         | <https://www.vulnhub.com/entry/potato-1,529/>                | <https://pan.iihack.com/Vulnhub/529> |
 | Pwned1             | 8      | Intermediate | <https://www.vulnhub.com/entry/pwnlab-1,507/>                | <https://pan.iihack.com/Vulnhub/507> |
 | PyExp              | 5      | Easy         | <https://www.vulnhub.com/entry/pyexp-1,534/>                 | <https://pan.iihack.com/Vulnhub/534> |
 | Sar                | 5      | Easy         | <https://www.vulnhub.com/entry/sar-1,425/>                   | <https://pan.iihack.com/Vulnhub/425> |
 | Seppuku            | 5      | Easy         | <https://www.vulnhub.com/entry/seppuku-1,484/>               | <https://pan.iihack.com/Vulnhub/484> |
-| Shakabrah          | 5      | Easy         | <>                                                           | <>                                   |
+| Shakabrah          | 5      | Easy         | \                                                            | \                                    |
 | Solstice           | 5      | Easy         | <https://www.vulnhub.com/entry/sunset-solstice,499/>         | <https://pan.iihack.com/Vulnhub/499> |
 | SoSimple           | 8      | Intermediate | <https://www.vulnhub.com/entry/so-simple-1,515/>             | <https://pan.iihack.com/Vulnhub/515> |
 | Stapler            | 8      | Intermediate | <https://www.vulnhub.com/entry/stapler-1,150/>               | <https://pan.iihack.com/Vulnhub/150> |
