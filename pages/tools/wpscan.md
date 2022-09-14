@@ -10,11 +10,17 @@ tags: tools
 $ wpscan --url http://raven.local/wordpress/ -e
 
 $ wpscan --url http://www.midwest.htb/ -U admin -P ~/Documents/pass2 -t 50
+
+$ wpscan --url http://10.0.2.30/wordpress/ --api-token ******************************************* 
 ```
 
 
 
 api注册地址 <https://wpscan.com/register>
+
+api查看 <https://wpscan.com/profile>
+
+
 
 
 
