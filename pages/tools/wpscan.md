@@ -14,7 +14,7 @@ $ wpscan --url http://www.midwest.htb/ -U admin -P ~/Documents/pass2 -t 50
 
 
 
-
+api注册地址 <https://wpscan.com/register>
 
 
 
