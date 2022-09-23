@@ -12,6 +12,9 @@ $ wpscan --url http://raven.local/wordpress/ -e
 $ wpscan --url http://www.midwest.htb/ -U admin -P ~/Documents/pass2 -t 50
 
 $ wpscan --url http://10.0.2.30/wordpress/ --api-token ******************************************* 
+
+$ wpscan --url http://10.0.2.15/assets/fonts/blog/ --plugins-detection aggressive
+
 ```
 
 
